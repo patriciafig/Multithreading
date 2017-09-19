@@ -1,5 +1,5 @@
 /*
- * Patricia Figueroa 
+ *
  * Lab Assignment 1
  *
  * Write a C++ program to implement multithreaded matrix multiplication using Pthreads.
@@ -23,7 +23,7 @@ void* print_message(void *threadid)   // takes one parameter
 {
     long tid;
     tid = long (threadid);  //set a thread id
-    // TO DO: set thread attributes
+   
     cout << "Threading! THREAD ID: " << tid << endl;
     pthread_exit(NULL);
 }
