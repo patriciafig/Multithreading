@@ -15,7 +15,7 @@
 
 using namespace std;
 
-#define NUM_THREADS 5    // define number of threads
+#define NUM_THREADS 4    // define number of threads
 
 
 void* print_message(void *threadid)   // takes one parameter
