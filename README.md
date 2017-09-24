@@ -5,7 +5,7 @@
  *  Lab#      :  1
  *  Due Date  :  Sept. 25, 2017
 ********************************************************        
-> ###**Read Me**
+>**Read Me**
 *******************************************************
 >**Description of the program**
 >The goal of this assignment is to write a C++ program to implement multithreaded matrix multiplication using Pthreads.
