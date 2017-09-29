@@ -5,13 +5,13 @@
  *  Lab#      :  1
  *  Due Date  :  Sept. 25, 2017
 ********************************************************        
-**Read Me**
+** Read Me **
 *******************************************************
->**Description of the program**
->The goal of this assignment is to write a C++ program to implement multithreaded matrix multiplication using Pthreads.
->![enter image description here](https://lh3.googleusercontent.com/enxUDRuUGX2QwyCsyNXMwKz9hezGIsYJi7HZMwHrDl3pn8pM7LZFNe_mMJp7kYDHvCCnG_efXpTu=s400 "Screen Shot 2017-09-24 at 5.22.00 PM.png")
+**Description of the program**
+The goal of this assignment is to write a C++ program to implement multithreaded matrix multiplication using Pthreads.
+![enter image description here](https://lh3.googleusercontent.com/enxUDRuUGX2QwyCsyNXMwKz9hezGIsYJi7HZMwHrDl3pn8pM7LZFNe_mMJp7kYDHvCCnG_efXpTu=s400 "Screen Shot 2017-09-24 at 5.22.00 PM.png")
 
-> **Specifications of the Program** 
+**Specifications of the Program** 
 
  * Create a separate worker thread to compute each row of the result matrix, instead of a thread for each element.
  * Do not initialize the contents of the A and B matrices statically. The A and B matrices will be initialized by reading data from an input file (see notes below).
