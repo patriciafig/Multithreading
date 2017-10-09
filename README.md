@@ -25,25 +25,29 @@ The goal of this assignment is to write a C++ program to implement multithreaded
  *  Each set of data processed must be labeled to indicate which set of data is being output (e.g.,Matrix A,Matrix B, etc).
  *  Maximum size of Matrices can be 10000x10000
  >
-*******************************************************
-Source files
-*******************************************************
+
+-----------------
+
+**Source files**
+
 Name:  main.cpp
    Main program.  
    This is the driver program that calls functions
    to read data from an input file, use the data make a new file,
    and print an output.
+   
+-----------------
 
-*******************************************************
-*  Circumstances of programs
-*******************************************************
+**Circumstances of programs**
 
+-----------------
    The program runs successfully.
-   The program was developed and tested on CLion 2017.1.1 and on csegrid.  It was compiled, run, and tested on macOS Sierra.
-
-*******************************************************
-*  How to build and run the program
-*******************************************************
+   The program was developed and tested on CLion 2017.1.1 and on csegrid. 
+   It was compiled, run, and tested on macOS Sierra.
+   
+-----------------
+**How to build and run the program**
+>
 
 1. Uncompress the homework.  The homework file is compressed.
    To uncompress it use the following commands
@@ -62,3 +66,5 @@ Name:  main.cpp
 
 3. Delete the obj files, executables, and core dump by
    %./make clean
+   
+   >
